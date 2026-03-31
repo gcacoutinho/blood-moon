@@ -30,6 +30,7 @@
           '';
 
            packages = [
+             pkgs.thc-hydra
              pkgs.mitmproxy
              pkgs.metasploit
              pkgs.hping
