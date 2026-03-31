@@ -30,6 +30,7 @@
           '';
 
            packages = [
+             pkgs.crunch
              pkgs.mitmproxy
              pkgs.metasploit
              pkgs.hping
