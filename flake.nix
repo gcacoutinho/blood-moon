@@ -31,7 +31,7 @@
 
         packages =
           [
-            pkgs.exploit-db
+            pkgs.exploitdb
             pkgs.httpx
             pkgs.thc-hydra
             pkgs.crunch
