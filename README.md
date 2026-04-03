@@ -1,3 +1,5 @@
+<img width="4128" height="1024" alt="A wide panoramic landscape bathed entirely in deep red and crimson hues. In the upper left, a large, glowing blood moon hangs in a starry night sky with wispy clouds. In the left foreground, four silhouetted figures in long cloaks stand on the edge of a rocky cliff, gazing out over a vast, desolate mountain valley. On the right side, the rocky cliff faces feature subtle, geometric, grid-like carvings that faintly resemble data patterns or circuitry blending into the stone. In the distance, a solitary watchtower sits atop a sharp mountain peak." src="https://github.com/user-attachments/assets/f3b51260-37f0-498f-85a4-b85fadc89337" />
+
 # Blood Moon
 
 Blood Moon is a Nix flake that provides a penetration testing dev shell with a curated toolset.
