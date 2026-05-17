@@ -15,20 +15,6 @@
       pkgs = nixpkgs.legacyPackages.aarch64-darwin;
     in
       pkgs.mkShell {
-        shellHook = ''
-          export IN_NIX_SHELL=1
-          ./utils/greeting.sh
-
-          if [ -n "$ZSH_VERSION" ]; then
-            setopt PROMPT_SUBST 2>/dev/null || true
-            export PROMPT="(nix:%1~) $PROMPT"
-          elif [ -n "$BASH_VERSION" ]; then
-            export PS1="(nix:\W) $PS1"
-          else
-            export PS1="(nix) $PS1"
-          fi
-        '';
-
         packages =
           [
             pkgs.exploitdb
