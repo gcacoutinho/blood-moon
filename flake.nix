@@ -62,6 +62,7 @@
             pkgs.ruby
             pkgs.perl
             pkgs.ffuf
+            pkgs.nth
           ]
           ++ (
             if builtins.getEnv "ALLOW_UNFREE" == "1" || (inputs.allowUnfree or false)
