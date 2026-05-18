@@ -63,6 +63,7 @@
             pkgs.perl
             pkgs.ffuf
             pkgs.nth
+            pkgs.nuclei
           ]
           ++ (
             if builtins.getEnv "ALLOW_UNFREE" == "1" || (inputs.allowUnfree or false)
